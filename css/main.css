@@ -2,7 +2,7 @@ body{
 background-color: lightblue;
 height: 100%;
 }
-
+//*changes the backgorund color to lime when seen on a 320px wide screen *//
 @media (max-width: 320px) {
 	body{
 		background-color: lime;
