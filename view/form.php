@@ -1,6 +1,10 @@
+<?php
+//require the config file to get to the $path variable
+require_once(__DIR__ . "/../model/config.php");
+?>
 <h1>Create Blog Post</h1>
-
-<form>
+<!-- form takes in info and sends it to the table -->
+<form method="post" action="<?php echo $path . "controller/create-post.php"; ?> ">
 	<div>
 		<!-- it labels the title -->
 		<label for="title">Title: </label>
