@@ -1,6 +1,6 @@
 <?php
 //require database file
-require_once(__DIR__ . "/../model/database.php");
+require_once(__DIR__ . "/../model/config.php");
 //able to create connection using mysqli object
 //all these parameters are in the database.php
 $connection = new mysqli($host, $username, $password, $database);
@@ -8,10 +8,20 @@ $connection = new mysqli($host, $username, $password, $database);
 $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 //the post means to get the data and filter it
 $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
-//to print out the title 
-echo "<p>Title: $title</p>";
-//tp print out the post
-echo "<p>Post: $post</p>";
+//run query to insert things into table
+//sql command starts off with an active/verb
+$query = $connection->query("INSERT INTO posts SET title = '$title', post = '$post'");
+//use conditional statement to see if its true or false
+// to see we are successful in inserting info into the database
+if($query){
+		// if successful outputs a title 
+		echo "<p>Successfully inserted post: $title and $post</p>";
+
+}
+else{
+	// if not successful dusplay and error
+	echo "<p>$connection->error</p>";
+}
 //it closes the connection
 $connection->close();
 

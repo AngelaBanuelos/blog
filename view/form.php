@@ -15,7 +15,7 @@ require_once(__DIR__ . "/../model/config.php");
 		<!-- it labels the Post -->
 		<label for="post">Post: </label>
 		<!-- makes a text box where you can insert multiple lines of text -->
-		<textarea name=""post></textarea>
+		<textarea name="post"></textarea>
 	</div>
 	<div>
 		<!-- creates a button to submit the text -->
