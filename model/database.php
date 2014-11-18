@@ -21,13 +21,27 @@ class Database {
 		$this->password = $password;
 		$this->database = $database;
 	}
-	//this function opens the connection
+	//this function opens the connection to the databse
+	//A function will be executed by a call to the function.
 	public function openConnection(){
+		//establishes a new connection 
+			$this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
+			//this checks if there is an error in our connection
+				if($this->connection->connect_error){
+					//if thier is an error it outputs Error
+		die("<p>Error: " . $this->connection->connect_error . "</p>");
+		}
 
 	}
 	//this function closes the connection
 	public function closeConnection(){
+		//checks if the you opened the connection 
+		//checks if the variable has been set and isnt NULL
+		if(isset ($this->connection)) {
+			//if  true, close the connection
+				$this->connection->close();
 
+		}
 
 	}
 	//every time we call the query we have to write a string 
