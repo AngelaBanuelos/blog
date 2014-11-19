@@ -8,3 +8,5 @@ $host = "localhost";
 $username = "root";
 $password = "root";
 $database = "blog_db";
+//created a new object
+$connection = new Database($host, $username, $password, $database);

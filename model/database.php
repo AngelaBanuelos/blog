@@ -47,7 +47,14 @@ class Database {
 	//every time we call the query we have to write a string 
 	//in the end it wil be passed as a variable 
 	public function query($string){
-
+		//to run the open function which will open the connection
+			$this->openConnection();
+		//to query the connection we have
+			$query = $this->connection->query($string);
+		//close the connection
+			$this->closeConnection();
+		//return the result 
+			return $query;
 
 	}
 }

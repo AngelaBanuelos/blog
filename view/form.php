@@ -18,7 +18,9 @@ require_once(__DIR__ . "/../model/config.php");
 		<textarea name="post"></textarea>
 	</div>
 	<div>
-		<!-- creates a button to submit the text -->
+		<!-- creates a button to submit the text 
 		<button type="submit">Submit</button>
+		-->
+		<button type="submit" class="btn btn-success">Submit</button>
 	</div>
 </form>
