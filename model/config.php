@@ -1,6 +1,8 @@
 <?php
 //this looks for database.php
 require_once(__DIR__ . "/database.php");
+//starts the session variable
+session_start();
 
 $path = "/blog/";
 
@@ -11,5 +13,10 @@ $host = "localhost";
 $username = "root";
 $password = "root";
 $database = "blog_db";
-//created a new object
-$connection = new Database($host, $username, $password, $database);
+//checks if the variable has been set snd reverses the ouput
+if(!isset($_SESSION["connection"])) {
+	//created a new object
+	$connection = new Database($host, $username, $password, $database);
+	// Added a session variable, which preserves information
+	$_SESSION["connection"] = $connection;
+}

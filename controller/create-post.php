@@ -7,7 +7,7 @@ $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
 //run query to insert things into table
 //sql command starts off with an active/verb
-$query = $connection->query("INSERT INTO posts SET title = '$title', post = '$post'");
+$query = $_SESSION["connection"]->query("INSERT INTO posts SET title = '$title', post = '$post'");
 //use conditional statement to see if its true or false
 // to see we are successful in inserting info into the database
 if($query){
@@ -17,7 +17,7 @@ if($query){
 }
 else{
 	// if not successful dusplay and error
-	echo "<p>$connection->error</p>";
+	echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
 
 
