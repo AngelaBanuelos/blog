@@ -11,6 +11,7 @@
 	//using the footer file
 	//it stores the footer html code in the footer.php file
 	require_once(__DIR__ . "/view/footer.php");
+	require_once(__DIR__ . "/controller/read-posts.php");
 
 	
 	?>
