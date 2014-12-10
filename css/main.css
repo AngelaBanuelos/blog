@@ -2,6 +2,32 @@ body{
 background-color: lightblue;
 height: 100%;
 }
+#header{
+	background: blue;
+	height: 100px;
+}
+#section{
+	background-color: white;
+	height: 500px
+}
+#div1{
+	height: 250px;
+	background-color: pink;
+	width: 800px;
+	display: inline-block;
+	float: left;
+	background-image: url("http://thissongissick.com/blog/wp-content/uploads/2012/09/J.-Cole-Rapper.jpg" );
+}
+#div2{
+	height: 250px;
+	background-color: lime;
+	width:566px;
+	display: inline-block;
+	float: left;
+
+
+
+}
 
 //*changes the backgorund color to lime when seen on a 320px wide screen *//
 @media (max-width: 320px) {

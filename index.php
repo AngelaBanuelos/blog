@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+</head>
+<body>
+<header id="header">
+</header>
+<section id="section">
+<div id="div1"></div>
+<div id="div2"></div>
+</section>
+</body>
+</html>
 	<?php
 	require_once(__DIR__ . "/controller/login-verify.php");
 	//uisng the header file
