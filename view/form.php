@@ -1,6 +1,12 @@
 <?php
 	//require the config file to get to the $path variable
 	require_once(__DIR__ . "/../model/config.php");
+	require_once(__DIR__ . "/../contorller/login-verify.php");
+	if(!authenticateUser)( {
+		header("Location: " . $path . "index.php");
+		die();
+	}
+
 ?>
 
 <h1>Create Blog Post</h1>

@@ -1,5 +1,10 @@
 <?php
 require_once(__DIR__ . "/../model/config.php");
+require_once(__DIR__ . "/../contorller/login-verify.php");
+	if(!authenticateUser)( {
+		header("Location: " . $path . "index.php");
+		die();
+	}
 
 $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
@@ -14,7 +19,7 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
 	. "email = '$email', "
 	. "username = '$username', "
 	. "password = '$hashedPassword', "
-	. "salt = 'salt'");
+	. "salt = '$salt'");
 
 if($query) {
 	echo "Successfully created user: $username";

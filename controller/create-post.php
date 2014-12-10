@@ -10,6 +10,11 @@
 <?php
 //require database file
 require_once(__DIR__ . "/../model/config.php");
+require_once(__DIR__ . "/../contorller/login-verify.php");
+	if(!authenticateUser)( {
+		header("Location: " . $path . "index.php");
+		die();
+	}
 //the variable filters the input and gets the post from title and filters it to make sure its a string
 $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 //the post means to get the data and filter it

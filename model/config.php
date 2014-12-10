@@ -3,6 +3,7 @@
 require_once(__DIR__ . "/database.php");
 //starts the session variable
 session_start();
+session_regenerate_id(true);
 
 $path = "/blog/";
 

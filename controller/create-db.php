@@ -1,7 +1,6 @@
 <?php
 //this looks for database.php
 require_once(__DIR__ . "/../model/config.php");
-
 //this query creates a table
 //table is used to put info in it
 //the table is called post and must have id, title, and post text
