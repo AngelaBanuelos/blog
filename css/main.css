@@ -25,15 +25,31 @@ background-color: turquoise;
 }
 #div1{
 	margin: 20px 20px 20px 20px;
-	height: 500px;
+	height: 800px;
 	background-color: pink;
 	width: 800px;
 	display: inline-block;
 	float: left;
-	background-image: url("http://api.ning.com/files/Y8bD62HksPh1bcjqno8SM-ov39ypApdTiMGZU-EpEMfDaCpYyIdfvL4UCiUDDNOgC4Uv1o5Tk3e-yuuLFfTet8USuwTgIpbn/J.ColeReachesOutToDopeProducerAndersonVinylzHernandezDetailsTracks.jpg"); 
+	background-image: url("http://mtv.mtvnimages.com/uri/mgid:file:http:shared:public.articles.mtv.com/wp-content/uploads/2014/11/j-cole-2014-forest-hills-drive-1416260633.jpg?quality=0.8&width=980"); 
 }
+.circular {
+  margin-left: 75px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url("http://www.hiphopdx.com//images/news/1-1-2-JCole_304.jpg") no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  color: black;
+  }
 #div2{
-	height: 250px;
+
 	background-color: lime;
 	width: 450px;
 	display: inline-block;

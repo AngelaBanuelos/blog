@@ -22,12 +22,13 @@ else{
 	//Added a session variable, which preserves info.
 	echo "<p>" . $_SESSION["connection"]->error . "</p>";
 	}
+	*/
 	//this query creates a tbale 
 	//the table stores users
 	//this table is called users
 	//this tbael must not be empty
 	//added a session variable
-	*/
+	
 	$query = $_SESSION["connection"]->query("CREATE TABLE users ("
 		. "id int(11) NOT NULL AUTO_INCREMENT, "
 		. "username varchar(30) NOT NULL, "
@@ -44,5 +45,5 @@ else{
 		//added a session variable, which preserves info
 		echo "<p>" . $_SESSION["connection"]->error . "</p>";
 	}
-	*/
 	
+	*/
