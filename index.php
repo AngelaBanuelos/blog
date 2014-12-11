@@ -5,6 +5,9 @@
 </head>
 <body>
 <header id="header">
+<h1 id="para1">J.</h1> 
+<h1 id="para2">Cole</h1>
+<div id="line"></div>
 </header>
 <section id="section">
 <div id="div1"></div>

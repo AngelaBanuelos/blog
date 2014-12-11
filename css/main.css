@@ -1,29 +1,44 @@
 body{
-background-color: lightblue;
-height: 100%;
+background-color: turquoise;
 }
 #header{
-	background: blue;
-	height: 100px;
+	
+	height: 110px;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+#para1{
+	padding-left: 170px;
+}
+#para2{
+	padding-left: 190px;
+}
+#line{
+	background-color: gray;
+	height:1px;
+	width: 1000px;
+	margin-left: 190px;
 }
 #section{
-	background-color: white;
-	height: 500px
+	
+	height: 800px
 }
 #div1{
-	height: 250px;
+	margin: 20px 20px 20px 20px;
+	height: 500px;
 	background-color: pink;
 	width: 800px;
 	display: inline-block;
 	float: left;
-	background-image: url("http://thissongissick.com/blog/wp-content/uploads/2012/09/J.-Cole-Rapper.jpg" );
+	background-image: url("http://api.ning.com/files/Y8bD62HksPh1bcjqno8SM-ov39ypApdTiMGZU-EpEMfDaCpYyIdfvL4UCiUDDNOgC4Uv1o5Tk3e-yuuLFfTet8USuwTgIpbn/J.ColeReachesOutToDopeProducerAndersonVinylzHernandezDetailsTracks.jpg"); 
 }
 #div2{
 	height: 250px;
 	background-color: lime;
-	width:566px;
+	width: 450px;
 	display: inline-block;
 	float: left;
+	margin: 20px 20px 20px 20px;
 
 
 
