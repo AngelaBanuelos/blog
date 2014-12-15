@@ -1,10 +1,6 @@
 <?php
 require_once(__DIR__ . "/../model/config.php");
-require_once(__DIR__ . "/../contorller/login-verify.php");
-	if(!authenticateUser)( {
-		header("Location: " . $path . "index.php");
-		die();
-	}
+require_once(__DIR__ . "/../controller/login-verify.php");
 
 $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);

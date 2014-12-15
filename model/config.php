@@ -1,6 +1,6 @@
 <?php
 //this looks for database.php
-require_once(__DIR__ . "/database.php");
+require_once(__DIR__ . "/Database.php");
 //starts the session variable
 session_start();
 session_regenerate_id(true);
