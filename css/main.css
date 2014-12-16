@@ -1,12 +1,12 @@
 body{
-background-color: turquoise;
+	background-color: black;
+color: white;
 }
 #header{
 	
 	height: 110px;
 	font-size: 40px;
 	font-family: 'Lobster', cursive;
-
 }
 .link1 {
 	margin-left: 770px;
@@ -30,21 +30,29 @@ background-color: turquoise;
 	width: 1000px;
 	margin-left: 190px;
 }
+#sec{
+	background-image: url("http://media-cache-ec0.pinimg.com/736x/ff/02/0d/ff020d7fffde38af8addf4b72509bf88.jpg");
+	height: 200px;
+	margin-top: 20px;
+	font-size: 150px;
+	opacity: .8;
+	text-align: center;
+}
 #section{
 	
 	height: 800px
 }
 #div1{
-	margin: 20px 20px 20px 20px;
-	height: 800px;
+	margin: 20px 20px 20px 200px;
+	height: 500px;
 	background-color: pink;
-	width: 800px;
+	width: 500px;
 	display: inline-block;
 	float: left;
-	background-image: url("http://mtv.mtvnimages.com/uri/mgid:file:http:shared:public.articles.mtv.com/wp-content/uploads/2014/11/j-cole-2014-forest-hills-drive-1416260633.jpg?quality=0.8&width=980"); 
+	background-image: url("http://www.vibe.com/sites/vibe.com/files/styles/main_image/public/article_images/j-cole-forest-hills-drive-cover.jpg"); 
 }
 .circular {
-  margin-left: 75px;
+  margin-left: 55px;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
@@ -60,20 +68,31 @@ background-color: turquoise;
   color: black;
   }
 #div2{
-
-	background-color: lime;
-	width: 450px;
+	width: 400px;
 	display: inline-block;
 	float: left;
-	margin: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 100px;
 
 }
 #footer{
 	margin-top: 50px;
 	height: 100px;
 	background-color: pink;
+	text-align: right;
 }
-
+/*.item{
+	height: 500px;
+	width: 100px;	
+}
+*/
+.post{
+	background-color: gray;
+	opacity: .5;
+}
+#carousel-example-generic{
+	width: 300px;
+	margin: 20px 20px 20px 20px;
+}
 //*changes the backgorund color to lime when seen on a 320px wide screen *//
 @media (max-width: 320px) {
 	body{
