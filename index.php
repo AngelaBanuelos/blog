@@ -12,11 +12,11 @@
                 <button type="button"><a href="login.php">Login</a></button>
                 <button type="button"><a href="/controller/logout-user.php">Logout</a></button>
                 <a class="link1" href="http://instagram.com/realcoleworld">
-                    <img src="https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Instagram-128.png" alt="IG" width="42" height="42" border="0"></a>
+                    <img src="http://storycountygop.com/wp-content/uploads/2013/09/instagram-icon-32x32.png" alt="IG" width="42" height="42" border="0"></a>
                 <a class="link2" href="https://www.facebook.com/JColeMusic">
-                    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2/512/Facebook_Button-128.png" alt="IG" width="42" height="42" border="0"></a>
+                    <img src="http://www.ceres.org/images/facebook-icon" alt="IG" width="42" height="42" border="0"></a>
                 <a class="link2" href="https://twitter.com/jcolenc">
-                    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="IG" width="42" height="42" border="0"></a>
+                    <img src="http://jqi.umd.edu/sites/all/modules/socialmedia/icons/icondock/Vector%20Social%20Media%20Icons/png/32px/twitter.png" alt="IG" width="42" height="42" border="0"></a>
             </h1>
 
             <div id="line"></div>
