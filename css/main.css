@@ -4,7 +4,7 @@ body{
 }
 #header{
     color: white;
-    height: 200px;
+    height: 250px;
     font-size: 40px;
     font-family: 'Lobster', cursive;
 }
@@ -48,11 +48,8 @@ a {
     background-color: gray;
     height:1px;
     width: 1000px;
-    margin-top: 65px;
+    margin-top: 70px;
     margin-left: 190px;
-}
-#section{
-
 }
 #sec{
     background-image: url("http://media-cache-ec0.pinimg.com/736x/ff/02/0d/ff020d7fffde38af8addf4b72509bf88.jpg");
@@ -129,10 +126,11 @@ a {
     }
 }
 
-.readmore-js-toggle, .readmore-js-section {
+/*.readmore-js-toggle, .readmore-js-section {
     display: block;
     width: 100%;
 }
 .readmore-js-section {
     overflow: hidden;
 }
+*/
