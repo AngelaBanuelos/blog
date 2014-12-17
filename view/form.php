@@ -28,6 +28,7 @@
 
 	<div>
 		<!--creates a button to submit the text -->
-		<button type="submit">Submit</button>
+		<button type="submit" type="button"><a class="submit">Submit</a></button>
+		
 	</div>
 </form>

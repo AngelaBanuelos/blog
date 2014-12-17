@@ -15,6 +15,7 @@ text-decoration: underline;
 a {
 color: black;
 text-decoration: none;
+
 }
 
 /*.link1 {
@@ -50,8 +51,6 @@ text-decoration: none;
 	margin-top: 65px;
 	margin-left: 190px;
 }
-
-
 #section{
 	
 	height: 800px
@@ -65,7 +64,7 @@ text-decoration: none;
 	text-align: center;
 	color: white;
 }
-#div1{
+/*#div1{
 	margin: 20px 20px 20px 200px;
 	height: 500px;
 	background-color: pink;
@@ -74,6 +73,7 @@ text-decoration: none;
 	float: left;
 	background-image: url("http://www.vibe.com/sites/vibe.com/files/styles/main_image/public/article_images/j-cole-forest-hills-drive-cover.jpg"); 
 }
+*/
 .circular {
   margin-left: 55px;
   margin-top: 15px;
@@ -111,7 +111,9 @@ text-decoration: none;
 	color: white;
 	display: inline-block;
 	float: left;
-	width: 200px;
+	width: 600px;
+	margin-left: 90px;
+	margin-top: 50px;
 }
 #carousel-example-generic{
 	width: 600px;
