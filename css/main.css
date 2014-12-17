@@ -50,6 +50,12 @@ text-decoration: none;
 	margin-top: 65px;
 	margin-left: 190px;
 }
+
+
+#section{
+	
+	height: 800px
+}
 #sec{
 	background-image: url("http://media-cache-ec0.pinimg.com/736x/ff/02/0d/ff020d7fffde38af8addf4b72509bf88.jpg");
 	height: 200px;
@@ -57,11 +63,7 @@ text-decoration: none;
 	font-size: 150px;
 	opacity: .8;
 	text-align: center;
-}
-
-#section{
-	
-	height: 800px
+	color: white;
 }
 #div1{
 	margin: 20px 20px 20px 200px;
@@ -93,26 +95,30 @@ text-decoration: none;
 	display: inline-block;
 	float: left;
 	margin: 20px 20px 20px 100px;
-
 }
-#footer{
+/*#footer{
 	margin-top: 50px;
 	height: 100px;
 	background-color: pink;
 	text-align: right;
 }
-/*.item{
-	height: 500px;
-	width: 100px;	
-}
 */
+
+
 .post{
 	background-color: gray;
 	opacity: .5;
+	color: white;
+	display: inline-block;
+	float: left;
+	width: 200px;
 }
 #carousel-example-generic{
-	width: 300px;
-	margin: 100px 100px 100px 100px;
+	width: 600px;
+	height: 600px;
+	margin: 60px 100px 100px 100px;
+	display: inline-block;
+	float: left;
 }
 //*changes the backgorund color to lime when seen on a 320px wide screen *//
 @media (max-width: 320px) {

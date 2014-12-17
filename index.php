@@ -35,13 +35,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="j.jpg" alt="...">
+                        <img src="J1.jpg" alt="...">
                         <div class="carousel-caption">
                             ...
                         </div>
                     </div>
                     <div class="item">
-                        <img src="ColeWorld.jpeg" alt="...">
+                        <img src="J2.jpg" alt="...">
                         <div class="carousel-caption">
                             ...
                         </div>
@@ -63,9 +63,10 @@
                 <div class="circular"></div>
             </div>
         </section>
-        <footer id="footer">
+        <!--<footer id="footer">
             &copy angela banuelos
         </footer>
+        -->
     </body>
 </html>
 
