@@ -1,6 +1,7 @@
+// code for readmore
 $('.post').readmore({
   speed: 75,
-  maxHeight: 100
+  maxHeight: 500
 });
 
 $('.post').readmore({

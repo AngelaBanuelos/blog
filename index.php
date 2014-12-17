@@ -6,7 +6,11 @@
     <body>
         <header id="header">
             <h1 id="para1">J.</h1> 
-            <h1 id="para2">Cole
+            <h1 id="para2">Cole</h1>
+            <h1 id="nav">
+                <button type="button"><a href="register.php">Register</a></button>
+                <button type="button"><a href="login.php">Login</a></button>
+                <button type="button"><a href="/controller/logout-user.php">Logout</a></button>
                 <a class="link1" href="http://instagram.com/realcoleworld">
                     <img src="https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Instagram-128.png" alt="IG" width="42" height="42" border="0"></a>
                 <a class="link2" href="https://www.facebook.com/JColeMusic">
