@@ -54,7 +54,6 @@ a {
 #sec{
     background-image: url("http://media-cache-ec0.pinimg.com/736x/ff/02/0d/ff020d7fffde38af8addf4b72509bf88.jpg");
     height: 200px;
-    margin-top: 20px;
     font-size: 150px;
     opacity: .8;
     text-align: center;
@@ -134,3 +133,19 @@ a {
     overflow: hidden;
 }
 */
+/*styling for element with class readmore-js-toggle and readmore-js-section*/
+.readmore-js-toggle, .readmore-js-section {
+  display: block;
+  width: 100%;
+  color: black;
+}
+.readmore-js-section {
+  overflow: hidden;
+  color: black;
+}
+
+#foot{
+    float: right;
+    padding-top: 550px;
+    padding-bottom: 10px;
+}
