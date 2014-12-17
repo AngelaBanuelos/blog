@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>	</title>
+        <title> </title>
     </head>
     <body>
         <header id="header">
@@ -26,13 +26,13 @@
             <!--<div id="div1"></div> -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-               <!--
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-                </ol>
+                <!--
+                 <ol class="carousel-indicators">
+                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+ 
+                 </ol>
                 -->
 
                 <!-- Wrapper for slides -->
@@ -110,3 +110,4 @@ require_once(__DIR__ . "/controller/read-posts.php");
 require_once(__DIR__ . "/view/footer.php");
 
 ?>
+
