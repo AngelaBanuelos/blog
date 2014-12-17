@@ -2,5 +2,5 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="readmore.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-	</body>
+</body>
 </html>
