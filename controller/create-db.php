@@ -8,12 +8,12 @@ require_once(__DIR__ . "/../model/config.php");
 //the table must be not empty(null)
 //this table echos date and time
 //Added a session variable
-$query = $_SESSION["connection"]->query("CREATE TABLE posts ("
-	. "id int(11) NOT NULL AUTO_INCREMENT,"
-	. "title varchar(255) NOT NULL,"
-	. "post text NOT NULL,"
-	. "DateTime datetime NOT NULL, " 
-	. "PRIMARY KEY (id))");
+	$query = $_SESSION["connection"]->query("CREATE TABLE posts ("
+		. "id int(11) NOT NULL AUTO_INCREMENT,"
+		. "title varchar(255) NOT NULL,"
+		. "post text NOT NULL,"
+		. "DateTime datetime NOT NULL, " 
+		. "PRIMARY KEY (id))");
 //checks to see if the table is created successfully
 /*if($query) {
 		echo "<p>Successfully created table: posts</p>";
