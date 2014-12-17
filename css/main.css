@@ -50,16 +50,6 @@ a {
     text-align: center;
     color: white;
 }
-/*#div1{
-        margin: 20px 20px 20px 200px;
-        height: 500px;
-        background-color: pink;
-        width: 500px;
-        display: inline-block;
-        float: left;
-        background-image: url("http://www.vibe.com/sites/vibe.com/files/styles/main_image/public/article_images/j-cole-forest-hills-drive-cover.jpg"); 
-}
-*/
 .circular {
     margin-left: 55px;
     margin-top: 15px;
@@ -82,15 +72,6 @@ a {
     float: left;
     margin: 20px 20px 20px 100px;
 }
-
-/*#footer{
-        margin-top: 50px;
-        height: 100px;
-        background-color: pink;
-        text-align: right;
-}
-*/
-
 
 .post{
     background-color: gray;
@@ -115,15 +96,6 @@ a {
         background-color: lime;
     }
 }
-
-/*.readmore-js-toggle, .readmore-js-section {
-    display: block;
-    width: 100%;
-}
-.readmore-js-section {
-    overflow: hidden;
-}
-*/
 /*styling for element with class readmore-js-toggle and readmore-js-section*/
 .readmore-js-toggle, .readmore-js-section {
   display: block;
