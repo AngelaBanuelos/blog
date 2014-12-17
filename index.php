@@ -10,7 +10,7 @@
             <h1 id="nav">
                 <button type="button"><a href="register.php">Register</a></button>
                 <button type="button"><a href="login.php">Login</a></button>
-                <button type="button"><a href="/controller/logout-user.php">Logout</a></button>
+                <button type="button"><a href="/controller/logout-user.php">logout</a></button>
                 <a class="link1" href="http://instagram.com/realcoleworld">
                     <img src="http://storycountygop.com/wp-content/uploads/2013/09/instagram-icon-32x32.png" alt="IG" width="42" height="42" border="0"></a>
                 <a class="link2" href="https://www.facebook.com/JColeMusic">
