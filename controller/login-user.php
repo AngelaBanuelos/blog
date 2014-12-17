@@ -12,6 +12,9 @@
 		if($row["password"] === crypt($password, $row["salt"])) {
 			$_SESSION["authenticated"] = true;
 			echo "<p>Login Successful!</p>";
+			?>
+			<button type="button"><a href="../index.php">Home</a></button>
+			<?php
 		}		
 		else {
 			echo "<p>Invalid username and password</p>";
